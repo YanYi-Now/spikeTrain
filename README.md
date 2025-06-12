@@ -39,7 +39,11 @@ This project is designed to be run in a Google Colab environment for ease of set
 * **Numba:** For Just-In-Time (JIT) compilation
   
 ## Acknowledgments
-This project was built referencing the following research papers:  
+Co-Contributers:
+Jyoti Archarya
+Assoc Prof Arindam Basu
+
+Research papers referenced:  
 * Diehl, P. & Cook, M., (2015). Unsupervised learning of digit recognition using spike-timing-dependent plasticity. Frontiers in Computational Neuroscience (Volume 9)  
 * Srinivasa, N., & Cho, Y. (2014). Unsupervised discrimination of patterns in spiking neural networks with excitatory and inhibitory synaptic plasticity. Frontiers in computational neuroscience, 8, 159. doi:10.3389/fncom.2014.00159
 * Shouval, H. Z., Wang, S. S., & Wittenberg, G. M. (2010). Spike timing dependent plasticity: a consequence of more fundamental learning rules. Frontiers in computational neuroscience, 4, 19. doi:10.3389/fncom.2010.00019
