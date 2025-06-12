@@ -1,6 +1,12 @@
 # spikeTrain
 This project implements a Spiking Neural Network (SNN) to classify handwritten digits from the MNIST dataset.
 
+## Features
+* **Spike Encoding:** Converts MNIST image pixel values into biologically plausible Poisson spike trains, mimicking sensory input to neural systems
+* **Leaky Integrate-and-Fire Neuron Model:** Emulate synaptic connections between excitatory and inhibitory neurons
+* **Unsupervised Learning:** Implement Spike-Timing Dependent Plasticity rule to update weights in the input-to-excitatory layer without labelled data
+* **Adaptive Neuron Thresholds:** Incorporates Spike-Frequency Adaptation to dynamically adjust neuron firing thresholds
+
 ## Getting Started  
 
 This project is designed to be run in a Google Colab environment for ease of setup
@@ -27,6 +33,11 @@ This project is designed to be run in a Google Colab environment for ease of set
    
    * The training and testing process will begin, with progress printed to the output
 
+## Built with
+* **Numpy:** Package for scientific computing with Python
+* **Matplotlib:** For plotting the receptive fields
+* **Numba:** For Just-In-Time (JIT) compilation
+  
 ## Acknowledgments
 This project was built referencing the following research papers:  
 * Diehl, P. & Cook, M., (2015). Unsupervised learning of digit recognition using spike-timing-dependent plasticity. Frontiers in Computational Neuroscience (Volume 9)  
